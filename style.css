@@ -1,0 +1,212 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box;
+   font-family: 'Gill Sans', sans-serif;
+}
+
+html,body{
+   height: 100%;
+   width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+    z-index: 1000;
+}
+#logo{
+    height: 50%;
+    cursor: pointer;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.texts{
+    color: rgb(11, 2, 94);
+    display: flex;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.texts:hover{
+    color: rgb(67, 235, 235);
+}
+#fakeheader{
+    height: 10%;
+    width: 100%;
+}
+#contactDetails{
+    font-weight: lighter;
+}
+#contact{
+    text-align: center;
+    cursor: pointer;
+}
+#contact:hover{
+    color: rgb(67, 235, 235);
+}
+.icons{
+    padding: 10px;
+    border-radius: 50%;
+}
+.icons:hover{
+    background-color: lightblue;
+}
+#logIn{
+    display: flex;
+    padding: 10px;
+    border-radius: 20px;
+}
+#logIn:hover{
+    background-color: lightblue;
+}
+#try button{
+    background-color: green;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+#try button:hover{
+    background-color: rgb(2, 46, 2);
+}
+#page1{
+    height: 90%;
+    width: 100%;
+}
+#strip{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(37, 37, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+#strip p{
+    font-weight: bold;
+    margin-right: 8px;
+}
+#content{
+    height: 70%;
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+#box1{
+    height: 90%;
+    width: 30%;
+}
+#para h1{
+    color: darkblue;
+    font-size: 63px;
+    margin: 20px 20px;
+}
+#para p{
+    font-size: x-large;
+    font-weight: lighter;
+    margin: 20px 20px;
+}
+#p1btn{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#btn1{
+    background-color: rgb(46, 108, 179);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    font-size: 600;
+    font-weight: bold;
+}
+#btn1:hover{
+    background-color: rgb(1, 25, 92);
+}
+#btn2{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: rgb(46, 108, 179);
+    border-color: rgb(46, 108, 179);
+    font-size: 600;
+    font-weight: bold;
+}
+#btn2:hover{
+    background-color: lightskyblue;
+}
+#box2{
+    height: 90%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+#videobox{
+    position: relative;
+    height: 70%;
+    width: 80%;
+    background: url('https://images.unsplash.com/photo-1739932215472-15ebf0ab6cf4?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center/cover no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#videobox video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video fits within the box */
+    border-radius: 10px;
+    z-index: 3;
+}
+@media (max-width: 768px) {
+    #content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #box2 {
+        width: 90%;
+    }
+    #videobox {
+        height: 200px;
+        width: 90%;
+    }
+}
+#heading{
+    height: 16%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading h1{
+    font-weight: 600;
+}
+#page2{
+    height: 90%;
+    width: 100%;
+    background-color: blueviolet;
+}
