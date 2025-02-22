@@ -61,6 +61,7 @@ html,body{
 .icons{
     padding: 10px;
     border-radius: 50%;
+    cursor: pointer;
 }
 .icons:hover{
     background-color: lightblue;
@@ -69,6 +70,7 @@ html,body{
     display: flex;
     padding: 10px;
     border-radius: 20px;
+    cursor: pointer;
 }
 #logIn:hover{
     background-color: lightblue;
@@ -79,6 +81,7 @@ html,body{
     border: none;
     border-radius: 10px;
     color: white;
+    cursor: pointer;
 }
 #try button:hover{
     background-color: rgb(2, 46, 2);
@@ -138,6 +141,7 @@ html,body{
     margin-right: 20px;
     font-size: 600;
     font-weight: bold;
+    cursor: pointer;
 }
 #btn1:hover{
     background-color: rgb(1, 25, 92);
@@ -150,6 +154,7 @@ html,body{
     border-color: rgb(46, 108, 179);
     font-size: 600;
     font-weight: bold;
+    cursor: pointer;
 }
 #btn2:hover{
     background-color: lightskyblue;
@@ -173,6 +178,7 @@ html,body{
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    cursor: pointer;
 }
 #videobox video {
     width: 100%;
@@ -180,6 +186,7 @@ html,body{
     object-fit: cover; /* Ensures the video fits within the box */
     border-radius: 10px;
     z-index: 3;
+    cursor: pointer;
 }
 @media (max-width: 768px) {
     #content {
@@ -204,9 +211,110 @@ html,body{
 }
 #heading h1{
     font-weight: 600;
+    font-size: 40px;
+    color: rgb(0, 0, 95);
 }
+
 #page2{
     height: 90%;
     width: 100%;
-    background-color: blueviolet;
+    background-image: url('bg.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#allCard{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#card1{
+    height: 85%;
+    width: 15%;
+    margin-right: 30px;
+    background-color: rgb(241, 248, 248);
+    border-radius: 20px;
+}
+#card1 img{
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#card2{
+    height: 85%;
+    width: 15%;
+    margin-right: 30px;
+    background-color: rgb(241, 248, 248);
+    border-radius: 20px;
+}
+#card2 img{
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#card3{
+    height: 85%;
+    width: 15%;
+    margin-right: 30px;
+    background-color: rgb(241, 248, 248);
+    border-radius: 20px;
+}
+#card3 img{
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#card4{
+    height: 85%;
+    width: 15%;
+    background-color: rgb(241, 248, 248);
+    border-radius: 20px;
+}
+#card4 img{
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.pCard{
+    margin: 30px;
+}
+.pCard h3{
+    color: rgb(0, 0, 95);
+    cursor: pointer;
+}
+.pCard h3:hover{
+    color: rgb(72, 134, 155);
+}
+.pCard p{
+    margin: 40px 0 60px 0;
+}
+.pCard h4{
+    color: rgb(0, 0, 95);
+    cursor: pointer;
+}
+.pCard h4:hover{
+    color: rgb(72, 134, 155);
+}
+#p2Button{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn3{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: rgb(46, 108, 179);
+    border-color: rgb(46, 108, 179);
+    font-size: 600;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn3:hover{
+    background-color: lightskyblue;
 }
