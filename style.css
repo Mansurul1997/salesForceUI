@@ -318,3 +318,32 @@ html,body{
 #btn3:hover{
     background-color: lightskyblue;
 }
+
+#page3{
+    height: 80%;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #pagePara3 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+#para3{
+    height: 50%;
+    width: 100%;
+}
+#para3 h1{
+    color: darkblue;
+    font-size: 63px;
+}
+#para3 p{
+    font-size: x-large;
+    font-weight: lighter;
+}
