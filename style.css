@@ -322,27 +322,56 @@ html,body{
 #page3{
     height: 80%;
     width: 100%;
-    background-color: aqua;
 }
-/* #pagePara3 {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.para3{
+    height: 30vh;
     text-align: center;
-} */
-#para3{
-    height: 40vh;
-    text-align: center;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
-#para3 h1{
+.para3 h1{
     color: darkblue;
-    font-size: 63px;
+    font-size: 50px;
+    margin-bottom: 30px;
 }
-#para3 p{
+.para3 p{
     font-size: x-large;
     font-weight: lighter;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#p3btn{
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+#btn4{
+    background-color: rgb(46, 108, 179);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    font-size: 600;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn4:hover{
+    background-color: rgb(1, 25, 92);
+}
+#btn5{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: rgb(46, 108, 179);
+    border-color: rgb(46, 108, 179);
+    font-size: 600;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn5:hover{
+    background-color: lightskyblue;
 }
