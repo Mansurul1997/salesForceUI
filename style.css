@@ -375,3 +375,52 @@ html,body{
 #btn5:hover{
     background-color: lightskyblue;
 }
+#page4{
+    height: 80%;
+    width: 100%;
+}
+#p4Card{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#card5{
+    height: 75%;
+    width: 20%;
+    margin-right: 30px;
+    background-color: rgb(241, 248, 248);
+    border-radius: 20px;
+}
+#card5 img{
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#card6{
+    height: 75%;
+    width: 20%;
+    margin-right: 30px;
+    background-color: rgb(241, 248, 248);
+    border-radius: 20px;
+}
+#card6 img{
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#card7{
+    height: 75%;
+    width: 20%;
+    margin-right: 30px;
+    background-color: rgb(241, 248, 248);
+    border-radius: 20px;
+}
+#card7 img{
+    height: 35%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
