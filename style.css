@@ -394,8 +394,6 @@ html,body{
 }
 #card5 img{
     height: 35%;
-    width: 100%;
-    object-fit: cover;
     border-radius: 10px;
 }
 #card6{
@@ -407,8 +405,6 @@ html,body{
 }
 #card6 img{
     height: 35%;
-    width: 100%;
-    object-fit: cover;
     border-radius: 10px;
 }
 #card7{
@@ -420,7 +416,22 @@ html,body{
 }
 #card7 img{
     height: 35%;
-    width: 100%;
-    object-fit: cover;
     border-radius: 10px;
+}
+#p4Button{
+    display: flex;
+    justify-content: center;
+}
+#btn6{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: rgb(46, 108, 179);
+    border-color: rgb(46, 108, 179);
+    font-size: 600;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn6:hover{
+    background-color: lightskyblue;
 }
