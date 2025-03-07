@@ -380,13 +380,13 @@ html,body{
     width: 100%;
 }
 #p4Card{
-    height: 80%;
+    height: 70%;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 #card5{
-    height: 75%;
+    height: 85%;
     width: 20%;
     margin-right: 30px;
     background-color: rgb(241, 248, 248);
@@ -397,7 +397,7 @@ html,body{
     border-radius: 10px;
 }
 #card6{
-    height: 75%;
+    height: 85%;
     width: 20%;
     margin-right: 30px;
     background-color: rgb(241, 248, 248);
@@ -408,7 +408,7 @@ html,body{
     border-radius: 10px;
 }
 #card7{
-    height: 75%;
+    height: 85%;
     width: 20%;
     margin-right: 30px;
     background-color: rgb(241, 248, 248);
