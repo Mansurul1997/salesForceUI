@@ -378,6 +378,7 @@ html,body{
 #page4{
     height: 80%;
     width: 100%;
+    background-color: aquamarine;
 }
 #p4Card{
     height: 70%;
@@ -421,6 +422,7 @@ html,body{
 #p4Button{
     display: flex;
     justify-content: center;
+    background-color: antiquewhite;
 }
 #btn6{
     background-color: white;
@@ -434,4 +436,11 @@ html,body{
 }
 #btn6:hover{
     background-color: lightskyblue;
+}
+#page5{
+    height: 100%;
+    width: 100%;
+    background-image: url('bg-2.webp');
+    background-position: center;
+    background-repeat: no-repeat;
 }
