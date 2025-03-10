@@ -444,3 +444,19 @@ html,body{
     background-position: center;
     background-repeat: no-repeat;
 }
+#Company{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#btn7{
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: rgb(46, 108, 179);
+    border-color: rgb(46, 108, 179);
+    font-size: 600;
+    font-weight: bold;
+    cursor: pointer;
+}
