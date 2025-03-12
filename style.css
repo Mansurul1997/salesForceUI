@@ -378,7 +378,6 @@ html,body{
 #page4{
     height: 80%;
     width: 100%;
-    background-color: aquamarine;
 }
 #p4Card{
     height: 70%;
@@ -422,7 +421,6 @@ html,body{
 #p4Button{
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
 }
 #btn6{
     background-color: white;
@@ -443,12 +441,20 @@ html,body{
     background-image: url('bg-2.webp');
     background-position: center;
     background-repeat: no-repeat;
+    background-color: aqua;
 }
 #Company{
-    height: 70%;
+    height: 30%;
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
+    margin-right: 30px;
+}
+#Company h1{
+    height: 30vh;
+    background-color: azure;
+    font-size: 5vh;
 }
 #btn7{
     background-color: white;
