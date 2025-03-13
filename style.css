@@ -441,7 +441,6 @@ html,body{
     background-image: url('bg-2.webp');
     background-position: center;
     background-repeat: no-repeat;
-    background-color: aqua;
 }
 #Company{
     height: 30%;
@@ -453,7 +452,6 @@ html,body{
 }
 #Company h1{
     height: 30vh;
-    background-color: azure;
     font-size: 5vh;
 }
 #btn7{
