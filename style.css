@@ -448,11 +448,16 @@ html,body{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-right: 30px;
 }
 #Company h1{
     height: 30vh;
     font-size: 5vh;
+    margin-right: 500px;
+    margin-left: 500px;
+}
+#p5Button{
+    display: flex;
+    justify-content: center;
 }
 #btn7{
     background-color: white;
@@ -463,4 +468,7 @@ html,body{
     font-size: 600;
     font-weight: bold;
     cursor: pointer;
+}
+#btn7:hover{
+    background-color: lightskyblue;
 }
