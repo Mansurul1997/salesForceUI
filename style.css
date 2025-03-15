@@ -441,6 +441,7 @@ html,body{
     background-image: url('bg-2.webp');
     background-position: center;
     background-repeat: no-repeat;
+    background-color: antiquewhite;
 }
 #Company{
     height: 30%;
