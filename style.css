@@ -497,15 +497,17 @@ html,body{
 }
 #p5Card{
     height: 10%;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 60px;
+    margin-left: 200px;
 }
 #card8{
     height: 100%;
-    width: 40%;
-    margin-right: 30px;
+    width: 13%;
+    margin-right: 20px;
     background-color: rgb(255, 247, 247);
     border-radius: 20px;
     display: flex;
@@ -519,8 +521,8 @@ html,body{
 }
 #card9{
     height: 100%;
-    width: 40%;
-    margin-right: 30px;
+    width: 13%;
+    margin-right: 20px;
     background-color: rgb(255, 247, 247);
     border-radius: 20px;
     display: flex;
@@ -533,8 +535,8 @@ html,body{
 }
 #card10{
     height: 100%;
-    width: 40%;
-    margin-right: 30px;
+    width: 13%;
+    margin-right: 20px;
     background-color: rgb(255, 247, 247);
     border-radius: 20px;
     display: flex;
@@ -547,8 +549,8 @@ html,body{
 }
 #card11{
     height: 100%;
-    width: 40%;
-    margin-right: 30px;
+    width: 13%;
+    margin-right: 20px;
     background-color: rgb(255, 247, 247);
     border-radius: 20px;
     display: flex;
@@ -561,8 +563,8 @@ html,body{
 }
 #card12{
     height: 100%;
-    width: 40%;
-    margin-right: 30px;
+    width: 13%;
+    margin-right: 20px;
     background-color: rgb(255, 247, 247);
     border-radius: 20px;
     display: flex;
@@ -575,8 +577,8 @@ html,body{
 }
 #card13{
     height: 100%;
-    width: 40%;
-    margin-right: 30px;
+    width: 13%;
+    margin-right: 20px;
     background-color: rgb(255, 247, 247);
     border-radius: 20px;
     display: flex;
@@ -589,8 +591,9 @@ html,body{
 }
 #card14{
     height: 100%;
-    width: 40%;
-    margin-right: 30px;
+    width: 13%;
+    margin-right: 20px;
+    margin-top: 20px;
     background-color: rgb(255, 247, 247);
     border-radius: 20px;
     display: flex;
@@ -603,8 +606,9 @@ html,body{
 }
 #card15{
     height: 100%;
-    width: 40%;
-    margin-right: 30px;
+    width: 13%;
+    margin-right: 20px;
+    margin-top: 20px;
     background-color: rgb(255, 247, 247);
     border-radius: 20px;
     display: flex;
