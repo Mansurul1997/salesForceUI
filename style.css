@@ -666,3 +666,62 @@ html,body{
     height: 90%;
     width: 100%;
 }
+#para4{
+    height: 15vh;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+#para4 h1{
+    color: darkblue;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#p7Card{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+#card16{
+    height: 85%;
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+#card16 img{
+    height: 70%;
+    border-radius: 10px;
+}
+#card17{
+    height: 85%;
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+#card17 img{
+    height: 70%;
+    border-radius: 10px;
+}
+#card18{
+    height: 85%;
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+#card18 img{
+    height: 70%;
+    border-radius: 10px;
+}
+#card19{
+    height: 85%;
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+#card19 img{
+    height: 70%;
+    border-radius: 10px;
+}
