@@ -729,3 +729,62 @@ html,body{
     height: 90%;
     width: 100%;
 }
+#page8 {
+    height: 85%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#page8::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 50%;
+    background-image: url('bg-3.webp');
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50% 50% 0 0; /* নৌকার মতো গোলাকার নিচের অংশ */
+}
+#p8Card{
+    height: 50%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#card20{
+    height: 85%;
+    width: 20%;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+#card20 img{
+    height: 80%;
+    border-radius: 10px;
+}
+#card21{
+    height: 85%;
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+#card21 img{
+    height: 80%;
+    border-radius: 10px;
+}
+#card22{
+    height: 85%;
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+#card22 img{
+    height: 80%;
+    border-radius: 10px;
+}
