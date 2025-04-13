@@ -807,3 +807,27 @@ html,body{
     justify-content: center;
     align-items: center;
 }
+#p9btn{
+    margin-top: 50px;
+    margin-left: 20px;
+    display: flex;
+}
+#p9btn p{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 100;
+}
+#p9btn p:hover{
+    color: rgb(67, 235, 235);
+}
+#btn9{
+    background-color: rgb(46, 108, 179);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-right: 20px;
+    font-size: 600;
+    font-weight: bold;
+    cursor: pointer;
+}
